@@ -1,0 +1,25 @@
+{
+  "name": "memo",
+  "version": "1.0.0",
+  "description": "memo desu",
+  "main": "index.js",
+  "scripts": {
+    "dev": "chmod 755  ./dev.sh && ./dev.sh  && vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhouhaimei/memo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zhouhaimei/memo/issues"
+  },
+  "homepage": "https://github.com/Zhouhaimei/memo#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.2"
+  }
+}
